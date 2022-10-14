@@ -24,4 +24,9 @@
   display: flex;
 }
 
+.family {
+  display: flex;
+  flex-direction: column;
+}
+
 
