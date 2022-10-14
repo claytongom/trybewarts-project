@@ -8,10 +8,18 @@
     <title>Project Trybewarts</title>
 </head>
 <body>
-    <header class="header"></header>    
+    <header class="header">    
     <div class="flex-container">
-        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
+        <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" width="40px">
     </div>
+
+    <form class="trybewarts-login" method="post">
+        <input id="email" type="email" name="email" placeholder="Email">
+        <input id="password" type="password" name="password" placeholder="Senha" value="">
+        <button type="button" class="btn" id="login">Entrar</button>
+    </form>
+</header>
+    <script src="script.js"></script>
     
 </body>
 </html>
