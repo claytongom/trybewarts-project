@@ -11,6 +11,7 @@
 
 .main {
   display: flex;
+  justify-content: space-evenly;
 }
 
 #evaluation-form {
@@ -40,4 +41,5 @@
 
 footer {
   text-align: center;
+  background-color: rgb(50, 167, 145);
 }
