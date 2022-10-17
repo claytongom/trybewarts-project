@@ -23,6 +23,3 @@ agree.addEventListener('click', () => {
     btnSubmitForm.disabled = true;
   }
 });
-
-
-
