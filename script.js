@@ -23,3 +23,14 @@ agree.addEventListener('click', () => {
     btnSubmitForm.disabled = true;
   }
 });
+
+function limite_textarea(valor) {
+  quant = 500;
+  total = valor.length;
+  if(total <= quant) {
+      resto = quant - total;
+      document.getElementById('counter').innerHTML = resto;
+  } else {
+      document.getElementById('texto').value = valor.substr(0,quant);
+  }
+}
