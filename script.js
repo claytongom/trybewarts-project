@@ -12,3 +12,17 @@ window.onload = function loadedPage() {
   const btnLogin = document.querySelector('#login');
   btnLogin.addEventListener('click', loginValidation);
 };
+
+const agree = document.getElementById('agreement');
+const btnSubmitForm = document.getElementById('submit-btn');
+
+agree.addEventListener('click', () => {
+  if (btnSubmitForm.disabled === true) {
+    btnSubmitForm.disabled = false;
+  } else {
+    btnSubmitForm.disabled = true;
+  }
+});
+
+
+
