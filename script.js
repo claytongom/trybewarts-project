@@ -24,13 +24,12 @@ agree.addEventListener('click', () => {
   }
 });
 
-function limiteTextArea(valor) {
-  const quant = 500;
-  var total = valor.length;
-  if (total <= quant) {
-    resto = quant - total;
-    document.getElementById('counter').innerHTML = resto;
-  } else {
-    document.getElementById('texto').value = valor.substr(0, quant);
-  }
+const textBox = document.getElementById('textarea');
+const counter = document.getElementById('counter');
+
+function counterChar() {
+  const text = textBox.value.length;
+  const calcChar = 500 - text;
+  counter.innerText = calcChar;
 }
+textBox.addEventListener('input', counterChar);
