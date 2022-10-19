@@ -3,6 +3,11 @@
   background-color: rgb(50, 167, 145);
   justify-content: space-around;
   align-items: center;
+  height: 50px;
+}
+
+body {
+  background-color: rgb(232, 232, 220);
 }
 
 .trybewarts-login {
@@ -28,6 +33,7 @@
 .family {
   display: flex;
   flex-direction: column;
+  width: 50%;
 }
 
 #content {
@@ -37,9 +43,19 @@
 
 #evaluation {
   flex-direction: column;
+  margin-top: 20px;
+}
+
+#submit-btn {
+  background-color: rgb(78, 48, 138);
+  color: white;
+  border-radius: 5px;
+  height: 30px;
 }
 
 footer {
   text-align: center;
   background-color: rgb(50, 167, 145);
+  color: white;
+  height: 20px;
 }
