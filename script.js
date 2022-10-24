@@ -33,4 +33,4 @@ function counterChar() {
   counter.innerText = calcChar;
 }
 textBox.addEventListener('input', counterChar);
-// alteração para validação
+// alteração para validação.
